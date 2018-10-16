@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Astloch');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+/* CSS DOCUMENT SETUP */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* used so that padding and borders will not increase with width and height	*/
+}
+
+
+a:hover, a:active, a {
+      text-decoration: none;
+      color: #00b456;
+ }
+
+a:hover {
+	color: white;
+}
+
+/* PAGE SETUP */
+html, body {
+	background-color: #f5f5f5;
+	background-size: cover;
+	background-image: url(../images/bg2.jpg);
+	/*height: 100%;
+	display: flex;*/
+/*	Used so that all chilred to have a height in % amounts */
+}
+
+
+/* NAVIGATION BAR
+.topnav {
+	background:#00b456;
+} */
+
+/* LINKS INSIDE NAV BAR
+.topnav a {
+	font-family: 'Inconsolata', monospace;
+	float: right;
+    color: #00b456;
+    padding: 30px 26px;
+	padding-left: 20px;
+	padding-right: 20px;
+    text-decoration: none;
+    font-size: 1.5vmax;
+} */
+
+/* LINKS HOVER
+.topnav a:hover {
+    color: #ffffff;
+} */
+
+/* ACTIVE LINK
+.topnav a.active {
+    color: white;
+} */
+
+
+
+
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: none;
+}
+
+/* Navigation links */
+.navbar a {
+  font-family: 'Inconsolata', monospace;
+  float: right;
+  font-size: 1.5vmax;
+  color: #00b456;
+  text-align: center;
+  padding: 30px 26px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+
+/* The subnavigation menu */
+.subnav {
+  float: right;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 1.5vmax;
+  border: none;
+  outline: none;
+  color: none;
+  padding: 14px 16px;
+  background-color:#f5f5f5;
+  font-family: 'Inconsolata', monospace;
+  margin: 20px;
+}
+
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: #00b456;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5vmax;
+	padding-left: 30px;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  color: #ffffff;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+  align-content: center;
+}
+
+
+
+.deliverables {
+ font-family: 'Source Sans Pro', sans-serif;
+ clear:both;
+ margin: 250px;
+ line-height: 30px;
+ color: darkgray;
+ font-size: 15px;
+}
+
+.deliverables h1{
+ font-family: 'Inconsolata', monospace;
+ color: black;
+}
+
+
+/* PICTURE */
+.storyboard{
+	clear:both;
+	/* margin: 25px; */
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-left: 70%; */
+	/* top: 55%; */
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}

@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Assignment 2: Prototype</title>
+<link href="css/a2deliverables.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+<!-- ORIGINAL NAV
+		<div class="topnav">
+			<a href="reflections.html">Reflections</a>
+			<a href="assignments.html">Assignments</a>
+			<a href="presentation.html">Presentation</a>
+			<a href="projects.html">Projects</a>
+			<a href="about.html">About</a>
+			<a href="index.html">Home</a>
+		</div>
+-->
+
+
+<!-- The navigation menu -->
+<div class="topnav">
+
+
+	<div class="subnav">
+		<button class="subnavbtn">reflections<i class="fa fa-caret-down"></i></button>
+		<div class="subnav-content">
+			<a href="reflection1.html">1</a>
+			<a href="reflection2.html">2</a>
+			<a href="reflection3.html">3</a>
+			<a href="reflection4.html">4</a>
+		</div>
+	</div>
+
+	<div class="subnav">
+		<button class="subnavbtn">presentation<i class="fa fa-caret-down"></i></button>
+		<div class="subnav-content">
+			<a href="slides.html">slides</a>
+		</div>
+	</div>
+
+	<div class="subnav">
+		<button class="subnavbtn">assignments<i class="fa fa-caret-down"></i></button>
+		<div class="subnav-content">
+			<a href="a2deliverables.html">a2: deliverables</a>
+			<a href="universe.html">a2: prototype</a>
+		</div>
+	</div>
+
+
+	<div class="subnav">
+		<button class="subnavbtn">project<i class="fa fa-caret-down"></i></button><br>
+		<div class="subnav-content">
+			<a href="proposal.html">proposal</a>
+			<a href="prototype.html">prototype</a>
+			<a href="final.html">final</a>
+		</div>
+	</div>
+
+
+	<div class="subnav">
+		<button class="subnavbtn"><a href="about.html">about</a></button>
+	</div>
+
+
+	<div class="subnav">
+    <button class="subnavbtn"><a href="index.html">home</a></button>
+  </div>
+
+
+</div>
+
+<div class="deliverables">
+<br><br><br>
+	<h1>Written documentation stating the concept,user interactions, purpose etc.</h1>
+	<br>
+	<p>
+		The concept for this project is simple: we had decided to make a mock universe through JavaScript as a way of exploring visual interaction. The base idea was to have a couple
+		of planets circling a central sun and a couple of other celestial bodies present that could be interacted with. Of final product has three fictional planets circling a sun with
+		their	satellites, which the user can influence the speed of; stars and dust clouds quivering; and asteroids that can be provoked on click. Our aim was to explore the idea of cause
+		and effect to	bring to the forefront the impact we have on the world around us, especially as discussions	surrounding interstellar colonies become less science-fiction and more reality.
+		The project creates classes for the various elements, using inheritance as a way of ensuring that some of the objects work the same way. The planets and satellites, for example, are
+		two objects (the latter inheriting from the former); the only difference being that the planets’ center is the sun and the satellites’ is a given planet, making it necessary for them
+		to have an additional function that updates their center’s position as it is constantly evolving.
+ </p>
+
+<br>
+<br>
+
+<h1>Written documentation stating the process: how the project evolved and what design choices were made and why. </h1>
+<br>
+<p>
+	The process for this project started with us conceptualizing what kind of environment we wanted to create, which was clear from the get go as Doug came with the idea to create a universe
+	and we agreed on it. We broke down the elements that we wanted in our universe to planets, sun, asteroids, satellites, stars and dust clouds, with each performing different movements and
+	behaving differently.
+<br><br>
+	We began the project using Three.js, however this library proved to be overly complicated, so we
+	instead decided to use the p5.js library as it was more similar to Processing which we had both used
+	before. We also started the project off in 3D space, however this proved to be complicated and tedious
+	so we changed to 2D, as it would still give us the effect we were going for.
+<br><br>
+	We also had to reign in some of the ideas that we had for the project, for example implementing black
+	holes that would somehow suck up all other on screen elements. We also originally wanted the mouse
+	interaction with the planets to be able to push them out of orbit completely and to get rid of the
+	planets centre of gravity, however this also proved to be complicated.
+<br><br>
+	We looked at various p5 features such a play elements for the creation of sprites and also the tickle
+	feature to try and apply and hack these into some of our objects however we had trouble applying these.
+	Finally, a key design choice that was made was to give all of the objects abstract and evocative overlaid
+	textures, particularly the planets and the sun. We also wanted to give all of the objects movement, and to
+	also make as many objects move and interact with the users mouse as possible.
+<br><br>
+	For the workload, we have “separated” it into three basic parts: core implementation, additional coding and
+	visual elements. While Dougy took it care of the core implementation of the basic element – basic classes like
+	celestial bodies, planets and satellites, as well as the orbiting logic – Imogen took care of all the visual
+	components of the project as well as the coding of some elements such as the dust clouds & stars noise movements
+	as well as the asteroids spawning through mouse clicks.
+
+	<br>
+	<br>
+	<br>
+
+	<h1>Describe the roles of each group member how the assignment work was divided </h1>
+	<br>
+	<p>
+	Dougy took it care of the core implementation of the basic elements – basic classes like celestial bodies,
+	planets and satellites, as well as the orbiting logic. He also tweaked the coding for the satellites speed,
+	the dust clouds and stars noise strength.
+<br><br>
+	Imogen worked on the creation of the visual images and textures – planets, asteroids, sun –as well as coding
+	the behaviour for asteroids, the stars  & dust clouds noisy movement, the satellites trigger, as well as making
+	the planets speed up on mouse hover.
+ </p>
+
+<br><br>
+	<h1>Project Visual Story Board</h1>
+<br>
+<figure class = "storyboard">
+	<img src="images/storyboard.jpg" alt="CH Logo" height="427", class="center">
+</figure>
+
+</div>
+
+</body>
+</html>
